@@ -1,7 +1,7 @@
 import * as webpack from 'webpack'
 import * as path from 'path'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
-import { CleanWebpackPlugin }  from 'clean-webpack-plugin'
+import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 
 const config : webpack.Configuration = {
   mode: 'development',

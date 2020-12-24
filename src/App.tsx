@@ -1,5 +1,5 @@
 import React from 'react'
 
-export const App = () => (
+export const App = (): JSX.Element => (
   <p>Holi</p>
 )
