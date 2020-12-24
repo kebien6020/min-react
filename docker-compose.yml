@@ -1,0 +1,16 @@
+# Development environment
+version: '3.8'
+
+services:
+  front:
+    image: node:14-alpine
+    networks:
+      - main
+    volumes:
+      - .:/app
+    ports:
+      - 8080
+    command: npm run dev
+
+networks:
+  main:
